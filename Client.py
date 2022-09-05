@@ -1,6 +1,5 @@
 import socket
 import os
-
 client_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 port = 12300
 hostname = socket.gethostname()
